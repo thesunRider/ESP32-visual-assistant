@@ -1,6 +1,6 @@
 # Ware It ESP32S3
 
-The 
+
 Language C++  \
 Folder Structure Required:
 - Kicad
@@ -22,9 +22,17 @@ Listing of Technologies used in the design:
 - Microphone
 - Main Unit - ESP32
 
-## TODO
-[-] Create Kicad Project
 
+## Notes
+Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad
+
+## TODO
+- [ ] Create Kicad Project | Surya
+- [ ] Make BMC and Avail power Rails
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 ## Reference
 Kindly put circuit reference here
 1. None
