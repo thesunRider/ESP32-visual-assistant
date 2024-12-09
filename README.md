@@ -12,7 +12,7 @@ Folder Structure Required:
 - Gerbers
 
 ## Technology Used
-Listing of Technologies used in the design:  \
+Listing of Technologies used in the design:
 - ChargingBMC 
 - Overvoltage Current protection
 - Speaker 
