@@ -27,7 +27,7 @@ Listing of Technologies used in the design:
 Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad
 
 ## TODO
-- [ ] Create Kicad Project | Surya
+- [x] Create Kicad Project | Surya
 - [ ] Make BMC and Avail power Rails
 - [ ]
 - [ ]
