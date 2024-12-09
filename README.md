@@ -23,7 +23,7 @@ Listing of Technologies used in the design:
 - Main Unit - ESP32
 
 ## TODO
-[]- Create Kicad Project
+[-] Create Kicad Project
 
 ## Reference
 Kindly put circuit reference here
