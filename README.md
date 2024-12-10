@@ -1,27 +1,35 @@
 # Ware It ESP32S3
 
-### Project Requirements for ESP32-S3 Device:
+Client Link: https://www.wareit.ai/
 
-- Audio Playback:
-	- Support audio playback via a speaker.
-	- Include an amplifier and necessary components for speaker output.
+### Endproduct Requirement 
+1. Working Prototype with enclosure
+2. 50~60mm size 
+3. Before 20th Jan. 
+4. All functionalities must be operational.
 
-- Battery Charging:
-	- Integrate a rechargeable battery with efficient charging and power management.
-	- Include a charging IC for Li-ion/Li-poly batteries, supporting both charging and power distribution to the ESP32-S3.
+### Device Design Requirements:
 
-- Connectivity:
-	- Enable Wi-Fi and Bluetooth (including BLE) for app connectivity and efficient power use.
+1. **Audio Playback:**
+   - Play audio through a speaker using the Audio BFF amplifier.
+   - Include necessary components for driving the speaker.
 
-- Camera Integration:
-	- Include a camera module for image/video capture, compatible with the ESP32-S3.
+2. **Battery Charging:**
+   - Support rechargeable Li-ion/Li-poly battery integration with efficient charging and power management.
+   - Include a charging circuit and IC for managing charging and power distribution to the ESP32-S3.
 
-- Microphone Control:
-	- Add a physical button to control the microphone (e.g., mute/unmute), connected to the ESP32-S3 GPIO.
-	- Provide feedback (e.g., LED indicator) for microphone status.
+3. **Connectivity:**
+   - Enable Wi-Fi and Bluetooth (including BLE) for app connectivity and efficient power use.
 
-- Enclosure:
-	- Design a compact, 3D-printed enclosure with ports (e.g., USB) and heat dissipation as needed.
+4. **Camera Integration:**
+   - Integrate an OV2640 camera module for image and video capture.
+
+5. **Microphone and Control:**
+   - Include three tactile buttons for microphone control with LED feedback for status (e.g., mute/unmute).
+
+6. **Enclosure:**
+   - Design a compact, 3D-printed enclosure with ports (e.g., USB charging) and provisions for heat dissipation.
+
 
 ### Current Status:
 Firmware tested on ESP32-S3 Xiao Sense with Audio BFF amplifier by client .
