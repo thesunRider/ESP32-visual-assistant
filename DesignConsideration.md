@@ -71,7 +71,11 @@ For I2S, the pins used can be chosen from any GPIOs via the GPIO Matrix. For mor
 ## Amplifier and Speaker
 Unit: MAX98357 
 JLCPCB: Available
+Logic Levels: 1.3 H : 0.6V L
+Max 500mA at 3.7V
 
+
+I2S unit with full itegrated components
 The gain of the unit depends on the Resistor connected to Gainslot
 
 | GAIN_SLOT |  I2S/LJ GAIN (dB)  |
@@ -81,3 +85,8 @@ The gain of the unit depends on the Resistor connected to Gainslot
 |Unconnected|9|
 |Connect to VDD|6|
 |Connect to VDD through 100kΩ|3|
+
+Try changing NC2 according table above to increase/decrease gain
+
+### Warning
+The amplifier only TAKES LEFT CHANNEL \

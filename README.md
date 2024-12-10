@@ -51,11 +51,10 @@ Folder Structure :
 Listing of Technologies used in the design:
 - ChargingBMC 
 - Overvoltage Current protection
-- Speaker  - https://www.adafruit.com/product/3923
-- Amplifier
-- Switches
-- Camera
-- Microphone - [Mems Mic](https://www.mouser.com/new/stmicroelectronics/stm-mp34dt06j-mems-microphone/?utm_id=177953056&gad_source=1&gclid=Cj0KCQiA3sq6BhD2ARIsAJ8MRwWJnhznsWiTNSwgZ1QY46zi9J55qz7O4NGU2KTo3JAvnQrWUm572PMaArC5EALw_wcB)
+- Amplifier & Speaker  - [Max98357 Amplifier](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview)
+- Switches -
+- Camera -
+- Microphone - [Mems Mic](https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/)
 - Main Unit - [ESP32-S3-WROOM-1-N4](https://www.digikey.de/de/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16163950)
 
 ## Askables
@@ -71,6 +70,8 @@ Listing of Technologies used in the design:
 
 ## Energy Charts
 
+While connecting the amplifier , the supply to the amp should go just after the fuel gauge and the over current protection circuit 
+
 | Component | Voltage  | Current  |
 |-----------|----------|----------|
 | Esp32 S3  | 3v3	 |   650mA       |
@@ -84,9 +85,13 @@ Refer [Design Considerations](DesignConsideration.md) for specific module requir
 ## TODO
 - [x] Create Kicad Project | Surya
 - [ ] Make BMC and Avail power Rails
-- [ ] Craete Flowchart 
-- [ ]
-- [ ]
+- [ ] Craete Flowchart
+- [x] Create Esp32 Base 
+- [x] Create Amp Schematic
+- [x] Craete Mic Schematic
+- [ ] Create Camera Schematic
+- [ ] Add switch Schematic
+- [ ] Link Components to PCB 
 - [ ] Test Cases for Hardware
 
 ## Reference
