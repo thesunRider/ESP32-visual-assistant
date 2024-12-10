@@ -83,7 +83,7 @@ Kindly create a seperate page for each new design block (power, camera,mic,...et
 Refer [Design Considerations](DesignConsideration.md) for specific module requirements
 
 ## TODO
-- [x] Create Kicad Project | Surya
+- [x] Create Kicad Project
 - [ ] Make BMC and Avail power Rails
 - [ ] Craete Flowchart
 - [x] Create Esp32 Base 
