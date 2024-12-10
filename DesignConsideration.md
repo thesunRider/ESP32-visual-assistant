@@ -1,6 +1,19 @@
-## Design COnsiderations
+## Design Considerations
+Here we specify all steps to produce each modules
+
+## Technology Used
+Listing of Technologies used in the design:
+- ChargingBMC 
+- Overvoltage Current protection
+- Speaker  - https://www.adafruit.com/product/3923
+- Amplifier
+- Switches
+- Camera
+- Microphone - [Mems Mic](https://www.mouser.com/new/stmicroelectronics/stm-mp34dt06j-mems-microphone/?utm_id=177953056&gad_source=1&gclid=Cj0KCQiA3sq6BhD2ARIsAJ8MRwWJnhznsWiTNSwgZ1QY46zi9J55qz7O4NGU2KTo3JAvnQrWUm572PMaArC5EALw_wcB)
+- Main Unit - [ESP32-S3-WROOM-1-N4](https://www.digikey.de/de/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16163950)
 
 #### ESP32 Consideration 
+Unit: **ESP32-S3-WROOM-1-N4**
 Logic levels ESP32 - VDD x 0.75 H : VDD x 0.25 L
 Max 650 mA at 3.3V input
 
