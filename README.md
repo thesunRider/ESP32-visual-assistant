@@ -39,9 +39,6 @@ Folder Structure :
 - Gerbers
 
 
-the specs just list it as a built-in digital microphone. i'm sure it's similar to this PDM MEMS microphone 
-[8:01 pm, 6/12/2024] Haris Mujeeb Elab: the camera sensor is OV2640
-
 ## Technology Used
 Listing of Technologies used in the design:
 - ChargingBMC 
