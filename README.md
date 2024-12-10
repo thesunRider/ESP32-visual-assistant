@@ -75,8 +75,8 @@ While connecting the amplifier , the supply to the amp should go just after the 
 | Component | Voltage  | Current  |
 |-----------|----------|----------|
 | Esp32 S3  | 3v3	 |   650mA       |
-| CMT2119   | -        |          |
-| 4T        | 0.98     |          |
+| Mic   |     3v3    |      2mA    |
+| Amp        | 3v7     |      500mA    |
 
 ## Notes
 Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad

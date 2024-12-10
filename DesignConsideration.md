@@ -89,3 +89,9 @@ Try changing NC2 according table above to increase/decrease gain
 
 ### Warning
 The amplifier only TAKES LEFT CHANNEL \
+
+## Camera 
+Unit: OV2640 
+JLCPCB: Not available
+Logic Levels:
+Max at 3.3V
