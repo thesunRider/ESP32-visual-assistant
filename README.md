@@ -56,23 +56,39 @@ Listing of Technologies used in the design:
 - Switches
 - Camera
 - Microphone - [Mems Mic](https://www.mouser.com/new/stmicroelectronics/stm-mp34dt06j-mems-microphone/?utm_id=177953056&gad_source=1&gclid=Cj0KCQiA3sq6BhD2ARIsAJ8MRwWJnhznsWiTNSwgZ1QY46zi9J55qz7O4NGU2KTo3JAvnQrWUm572PMaArC5EALw_wcB)
-- Main Unit - ESP32
+- Main Unit - [ESP32-S3-WROOM-1-N4](https://www.digikey.de/de/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16163950)
+
+## Askables
+1. Where in the product does the camera go 
+2. Need The cad of the device
+
+## Problems
+1. ESP32 Cam schematics not well defined, most schematics on internet are wrong (NEED TO CHECK WITH DATASHEET)
+
 
 ## Flowchart
 
 
 ## Energy Charts
 
+| Component | Voltage  | Current  |
+|-----------|----------|----------|
+| Esp32 S3  | 3v3	 |   650mA       |
+| CMT2119   | -        |          |
+| 4T        | 0.98     |          |
+
 ## Notes
 Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad
+Refer [Design Considerations](DesignConsideration.md) for specific module requirements
 
 ## TODO
 - [x] Create Kicad Project | Surya
 - [ ] Make BMC and Avail power Rails
-- [ ]
+- [ ] Craete Flowchart 
 - [ ]
 - [ ]
 - [ ] Test Cases for Hardware
+
 ## Reference
 Kindly put circuit reference here
 1. None
