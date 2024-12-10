@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprint_Wareit_Mic")(type "KiCad")(uri "C:/Users/Surya/Documents/projects/electronics/wareit/Ware_It_ESP32S3_MylesChatman/Kicad/ImportedComponents/ICS-43434")(options "")(descr ""))
+)
