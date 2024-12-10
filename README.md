@@ -88,7 +88,7 @@ Refer [Design Considerations](DesignConsideration.md) for specific module requir
 - [ ] Craete Flowchart
 - [x] Create Esp32 Base 
 - [x] Create Amp Schematic
-- [x] Craete Mic Schematic
+- [x] Create Mic Schematic
 - [ ] Create Camera Schematic
 - [ ] Add switch Schematic
 - [ ] Link Components to PCB 
