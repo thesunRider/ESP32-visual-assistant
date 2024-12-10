@@ -1,33 +1,35 @@
 # Ware It ESP32S3
 
-## Project Requirements for ESP32-S3 Device:
+### Project Requirements for ESP32-S3 Device:
 
-Audio Playback:
+- Audio Playback:
+	- Support audio playback via a speaker.
+	- Include an amplifier and necessary components for speaker output.
 
-Support audio playback via a speaker.
-Include an amplifier and necessary components for speaker output.
-Battery Charging:
+- Battery Charging:
+	- Integrate a rechargeable battery with efficient charging and power management.
+	- Include a charging IC for Li-ion/Li-poly batteries, supporting both charging and power distribution to the ESP32-S3.
 
-Integrate a rechargeable battery with efficient charging and power management.
-Include a charging IC for Li-ion/Li-poly batteries, supporting both charging and power distribution to the ESP32-S3.
-Connectivity:
+- Connectivity:
+	- Enable Wi-Fi and Bluetooth (including BLE) for app connectivity and efficient power use.
 
-Enable Wi-Fi and Bluetooth (including BLE) for app connectivity and efficient power use.
-Camera Integration:
+- Camera Integration:
+	- Include a camera module for image/video capture, compatible with the ESP32-S3.
 
-Include a camera module for image/video capture, compatible with the ESP32-S3.
-Microphone Control:
+- Microphone Control:
+	- Add a physical button to control the microphone (e.g., mute/unmute), connected to the ESP32-S3 GPIO.
+	- Provide feedback (e.g., LED indicator) for microphone status.
 
-Add a physical button to control the microphone (e.g., mute/unmute), connected to the ESP32-S3 GPIO.
-Provide feedback (e.g., LED indicator) for microphone status.
-Enclosure:
+- Enclosure:
+	- Design a compact, 3D-printed enclosure with ports (e.g., USB) and heat dissipation as needed.
 
-Design a compact, 3D-printed enclosure with ports (e.g., USB) and heat dissipation as needed.
-Current Status:
-Firmware tested on ESP32-S3 Xiao Sense with Audio BFF amplifier. Ready to design and manufacture the PCB and enclosure.
+### Current Status:
+Firmware tested on ESP32-S3 Xiao Sense with Audio BFF amplifier by client .
 
+
+## Technicals
 Language: C++ -> Need to create testcases for harware \
-Folder Structure Required:
+Folder Structure :
 - Kicad
 	- Test (First Prototype)
 	- Main (Main Prototype)
