@@ -67,3 +67,17 @@ The I2S interface has a dedicated DMA controller. It supports TDM PCM, TDM MSB a
 Pin Assignment:
 For I2S, the pins used can be chosen from any GPIOs via the GPIO Matrix. For more information about the pin assignment, see ESP32-S3 Series Datasheet > Section IO Pins and ESP32-S3 Technical Reference Manual > Chapter IO MUX and GPIO Matrix.
 
+
+## Amplifier and Speaker
+Unit: MAX98357 
+JLCPCB: Available
+
+The gain of the unit depends on the Resistor connected to Gainslot
+
+| GAIN_SLOT |  I2S/LJ GAIN (dB)  |
+|-----------|----------|
+| Connect to GND through 100kΩ  | 15	 | 
+| Connect to GND  | 12        | 
+|Unconnected|9|
+|Connect to VDD|6|
+|Connect to VDD through 100kΩ|3|
