@@ -53,7 +53,7 @@ Listing of Technologies used in the design:
 - Overvoltage Current protection
 - Amplifier & Speaker  - [Max98357 Amplifier](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview)
 - Switches -
-- Camera - OV2640 
+- Camera - OV5640 - https://www.waveshare.com/wiki/OV5640_Camera_Board_(A) 
 - Microphone - [Mems Mic](https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/)
 - Main Unit - [ESP32-S3-WROOM-1-N4](https://www.digikey.de/de/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16163950)
 
@@ -63,6 +63,68 @@ Listing of Technologies used in the design:
 
 ## Problems
 1. ESP32 Cam schematics not well defined, most schematics on internet are wrong (NEED TO CHECK WITH DATASHEET)
+
+The schematic layout and tyhe original pin index is inverted
+Schmeatic Index:
+| Pin | Name     |
+|-----|----------|
+| 1   | Y0       |
+| 2   | Y1       |
+| 3   | Y4       |
+| 4   | Y3       |
+| 5   | Y5       |
+| 6   | Y2       |
+| 7   | Y6       |
+| 8   | PCLK     |
+| 9   | Y7       |
+| 10  | DGND     |
+| 11  | Y8       |
+| 12  | XCLK     |
+| 13  | Y9       |
+| 14  | DOVDD    |
+| 15  | DVDD     |
+| 16  | HREF     |
+| 17  | PWDN     |
+| 18  | VSYNC    |
+| 19  | RESET    |
+| 20  | SIO_CLK  |
+| 21  | AVDD     |
+| 22  | SIO_DAT  |
+| 23  | AGND     |
+| 24  | NC       |
+
+
+ORIGINAL Index:
+
+| Pin | Name     |
+|-----|----------|
+| 1  | NC       |
+| 2  | AGND     |
+| 3  | SIO_DAT  |
+| 4  | AVDD     |
+| 5  | SIO_CLK  |
+| 6  | RESET    |
+| 7  | VSYNC    |
+| 8  | PWDN     |
+| 9  | HREF     |
+| 10  | DVDD     |
+| 11  | DOVDD    |
+| 12  | Y9       |
+| 13  | XCLK     |
+| 14  | Y8       |
+| 15  | DGND     |
+| 16  | Y7       |
+| 17   | PCLK     |
+| 18   | Y6       |
+| 19   | Y2       |
+| 20   | Y5       |
+| 21   | Y3       |
+| 22  | Y4       |
+| 23   | Y1       |
+| 24   | Y0       |
+
+Cross Refer OV5640-A.pdf and Ov5640-Camera-Schematic.pdf
+
 
 
 ## Flowchart
@@ -89,7 +151,7 @@ Refer [Design Considerations](DesignConsideration.md) for specific module requir
 - [x] Create Esp32 Base 
 - [x] Create Amp Schematic
 - [x] Create Mic Schematic
-- [ ] Create Camera Schematic
+- [ ] Create Camera Schematic - Created a symbol in Kicad for testing (proceeding with it - need reverse engineer testing)
 - [ ] Add switch Schematic
 - [ ] Link Components to PCB 
 - [ ] Test Cases for Hardware

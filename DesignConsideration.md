@@ -91,10 +91,11 @@ Try changing NC2 according table above to increase/decrease gain
 The amplifier only TAKES LEFT CHANNEL \
 
 ## Camera 
-Unit: OV2640 
+Unit: OV5640 
 JLCPCB: Not available
 Logic Levels:
 Max at 3.3V
+Connector : 24 Pin 0.5mm Pitch Bottom Contact ZIF Connector,FPC Connector - https://www.buydisplay.com/24-pin-0-5mm-pitch-bottom-contact-zif-connector-fpc-connector
 
 ### Pin Mapping: 
 //WROVER-KIT PIN Map
