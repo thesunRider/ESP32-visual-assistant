@@ -98,7 +98,7 @@ Refer [Design Considerations](DesignConsideration.md) for specific module requir
 Kindly put circuit reference here
 1. None
 
-## Sourcing Components
+## Components Sourcing
 Adafruit OV5640 Camera Breakout
 -  Breakout Board uses FD5640 500W Camera sensor
 -  Available in bluk from Aliexpress
