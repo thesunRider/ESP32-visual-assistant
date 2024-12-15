@@ -49,8 +49,7 @@ Folder Structure :
 
 ## Technology Used
 Listing of Technologies used in the design:
-- ChargingBMC (PMIC) - [AXP2101](https://jlcpcb.com/partdetail/x_powersTech-AXP2101/C3036461) 
-- Overvoltage Current protection
+- PMIC - [AXP2101](https://jlcpcb.com/partdetail/x_powersTech-AXP2101/C3036461) 
 - Amplifier & Speaker  - [Max98357 Amplifier](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview)
 - Switches -
 - Camera - [OV5640](https://www.waveshare.com/ov5640-camera-board-a.htm)
