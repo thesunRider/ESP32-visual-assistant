@@ -139,10 +139,19 @@ While connecting the amplifier , the supply to the amp should go just after the 
 | Esp32 S3  | 3v3	 |   650mA       |
 | Mic   |     3v3    |      2mA    |
 | Amp        | 3v7     |      500mA    |
+| Camera | 3v3 , 2v8, 1v5 | 200mA |
+| LED 		| 3v3	| 70mA	|
+| Extras |3v3 |30mA|
+
+Max current: 1.5A
+
 
 ## Notes
 Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad
+Kindly Name no connect jumpers as 0ohm resistors and reference as NC
+BE CAREFUL TO PLACE NC RESISTORS ISOLATED IN FOOTPRINT AS THEY NEED TO BE DESOLDERED OR SOLDERED WITHOUT DISTURBING SURROUNDINGS
 Refer [Design Considerations](DesignConsideration.md) for specific module requirements
+
 
 ## TODO
 - [x] Create Kicad Project
@@ -151,7 +160,7 @@ Refer [Design Considerations](DesignConsideration.md) for specific module requir
 - [x] Create Esp32 Base 
 - [x] Create Amp Schematic
 - [x] Create Mic Schematic
-- [ ] Create Camera Schematic - Created a symbol in Kicad for testing (proceeding with it - need reverse engineer testing)
+- [x] Create Camera Schematic - Created a symbol in Kicad for testing (proceeding with it - need reverse engineer testing)
 - [ ] Add switch Schematic
 - [ ] Link Components to PCB 
 - [ ] Test Cases for Hardware
