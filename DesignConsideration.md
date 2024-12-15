@@ -15,7 +15,7 @@ Listing of Technologies used in the design:
 Unit: **ESP32-S3-WROOM-1-N4** \
 JLCPCB: Not Available \
 Logic levels ESP32 - VDD x 0.75 H : VDD x 0.25 L \
-Max 650 mA at 3.3V input \
+Max 650 mA at 3.3V input 
 
 - Soldering the EPAD to the ground of the base board is not a must, however, it can optimize thermal
 performance. If you choose to solder it, please apply the correct amount of soldering paste. Too much
@@ -48,7 +48,7 @@ Unit: ICS-43434 \
 JLCPCB: Available \
 Logic Levels: VDD x 0.7 H : VDD x 0.3 L \
 Max 1mA at 3.3V \
-I2S unit with full itegrated components \
+I2S unit with full itegrated components 
 
 Refer App notes \
 Refer Schematic at: https://learn.adafruit.com/assets/132616 \
@@ -71,7 +71,7 @@ For I2S, the pins used can be chosen from any GPIOs via the GPIO Matrix. For mor
 Unit: MAX98357 \ 
 JLCPCB: Available \
 Logic Levels: 1.3 H : 0.6V L \
-Max 500mA at 3.7V \
+Max 500mA at 3.7V 
 
 
 I2S unit with full itegrated components \
@@ -97,7 +97,7 @@ Logic Levels: 2.8V \
 core: 1.5V ± 5% (with embedded 1.5V regulator) \
 analog: 2.6 ~ 3.0V (2.8V typical) \
 I/O: 1.8V / 2.8V \
-Power: active: 140 mA \
+Power: active: 140 mA 
 
 Connector : 24 Pin 0.5mm Pitch Bottom Contact ZIF Connector,FPC Connector - https://www.buydisplay.com/24-pin-0-5mm-pitch-bottom-contact-zif-connector-fpc-connector
 
@@ -107,4 +107,4 @@ While connecting camera module there are a lot of unconnected jumpers ,while tes
 ## Charging and PMIC
 Unit: AXP2101 \
 JLCPCB: available \
-Logic level: 3.3V \
+Logic level: 3.3V 
