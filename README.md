@@ -66,62 +66,36 @@ Listing of Technologies used in the design:
 
 The schematic layout and tyhe original pin index is inverted
 Schmeatic Index:
-| Pin | Name     |
-|-----|----------|
-| 1   | Y0       |
-| 2   | Y1       |
-| 3   | Y4       |
-| 4   | Y3       |
-| 5   | Y5       |
-| 6   | Y2       |
-| 7   | Y6       |
-| 8   | PCLK     |
-| 9   | Y7       |
-| 10  | DGND     |
-| 11  | Y8       |
-| 12  | XCLK     |
-| 13  | Y9       |
-| 14  | DOVDD    |
-| 15  | DVDD     |
-| 16  | HREF     |
-| 17  | PWDN     |
-| 18  | VSYNC    |
-| 19  | RESET    |
-| 20  | SIO_CLK  |
-| 21  | AVDD     |
-| 22  | SIO_DAT  |
-| 23  | AGND     |
-| 24  | NC       |
-
+| Pin | Schematic Name | Actual Name |
+|-----|---------------|--------------|
+| 1   | Y0            | NC           |
+| 2   | Y1            | AGND         |
+| 3   | Y4            | SIO_DAT      |
+| 4   | Y3            | AVDD         |
+| 5   | Y5            | SIO_CLK      |
+| 6   | Y2            | RESET        |
+| 7   | Y6            | VSYNC        |
+| 8   | PCLK          | PWDN         |
+| 9   | Y7            | HREF         |
+| 10  | DGND          | DVDD         |
+| 11  | Y8            | DOVDD        |
+| 12  | XCLK          | Y9           |
+| 13  | Y9            | XCLK         |
+| 14  | DOVDD         | Y8           |
+| 15  | DVDD          | DGND         |
+| 16  | HREF          | Y7           |
+| 17  | PWDN          | PCLK         |
+| 18  | VSYNC         | Y6           |
+| 19  | RESET         | Y2           |
+| 20  | SIO_CLK       | Y5           |
+| 21  | AVDD          | Y3           |
+| 22  | SIO_DAT       | Y4           |
+| 23  | AGND          | Y1           |
+| 24  | NC            | Y0           |
 
 ORIGINAL Index:
 
-| Pin | Name     |
-|-----|----------|
-| 1  | NC       |
-| 2  | AGND     |
-| 3  | SIO_DAT  |
-| 4  | AVDD     |
-| 5  | SIO_CLK  |
-| 6  | RESET    |
-| 7  | VSYNC    |
-| 8  | PWDN     |
-| 9  | HREF     |
-| 10  | DVDD     |
-| 11  | DOVDD    |
-| 12  | Y9       |
-| 13  | XCLK     |
-| 14  | Y8       |
-| 15  | DGND     |
-| 16  | Y7       |
-| 17   | PCLK     |
-| 18   | Y6       |
-| 19   | Y2       |
-| 20   | Y5       |
-| 21   | Y3       |
-| 22  | Y4       |
-| 23   | Y1       |
-| 24   | Y0       |
+
 
 Cross Refer OV5640-A.pdf and Ov5640-Camera-Schematic.pdf
 
