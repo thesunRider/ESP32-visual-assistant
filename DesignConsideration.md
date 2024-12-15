@@ -3,11 +3,11 @@ Here we specify all steps to produce each modules
 
 ## Technology Used
 Listing of Technologies used in the design:
-- ChargingBMC 
+- ChargingBMC (PMIC) - [AXP2101](https://jlcpcb.com/partdetail/x_powersTech-AXP2101/C3036461) 
 - Overvoltage Current protection
 - Amplifier & Speaker  - [Max98357 Amplifier](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview)
 - Switches -
-- Camera - OV2640 
+- Camera - OV5640 
 - Microphone - [Mems Mic](https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/)
 - Main Unit - [ESP32-S3-WROOM-1-N4](https://www.digikey.de/de/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16163950)
 
