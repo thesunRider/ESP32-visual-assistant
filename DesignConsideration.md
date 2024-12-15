@@ -103,3 +103,8 @@ Connector : 24 Pin 0.5mm Pitch Bottom Contact ZIF Connector,FPC Connector - http
 
 ### Warning: 
 While connecting camera module there are a lot of unconnected jumpers ,while testing check if we need connection by refering schematic (BUY 0ohm resisors) 
+
+## Charging and PMIC
+Unit: AXP2101
+JLCPCB: available
+Logic level: 3.3V
