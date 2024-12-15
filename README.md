@@ -147,10 +147,10 @@ Max current: 1.5A
 
 
 ## Notes
-Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad
-Kindly Name no connect jumpers as 0ohm resistors and reference as NC
-BE CAREFUL TO PLACE NC RESISTORS ISOLATED IN FOOTPRINT AS THEY NEED TO BE DESOLDERED OR SOLDERED WITHOUT DISTURBING SURROUNDINGS
-Refer [Design Considerations](DesignConsideration.md) for specific module requirements
+1. Kindly create a seperate page for each new design block (power, camera,mic,...etc) in kicad
+2. Kindly Name no connect jumpers as 0ohm resistors and reference as NC
+3. BE CAREFUL TO PLACE NC RESISTORS ISOLATED IN FOOTPRINT AS THEY NEED TO BE DESOLDERED OR SOLDERED WITHOUT DISTURBING SURROUNDINGS
+4. Refer [Design Considerations](DesignConsideration.md) for specific module requirements
 
 
 ## TODO
