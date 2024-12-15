@@ -108,3 +108,6 @@ While connecting camera module there are a lot of unconnected jumpers ,while tes
 Unit: AXP2101 \
 JLCPCB: available \
 Logic level: 3.3V 
+
+## ESD Protection
+Status Pending
