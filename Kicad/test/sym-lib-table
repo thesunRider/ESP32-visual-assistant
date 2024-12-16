@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Components_Wareit_Mic")(type "KiCad")(uri "C:/Users/Surya/Documents/projects/electronics/wareit/Ware_It_ESP32S3_MylesChatman/Kicad/ImportedComponents/ICS-43434/ICS-43434.kicad_sym")(options "")(descr ""))
   (lib (name "ov5640")(type "KiCad")(uri "C:/Users/Surya/Documents/projects/electronics/wareit/Ware_It_ESP32S3_MylesChatman/Kicad/ImportedComponents/ov5640.kicad_sym")(options "")(descr ""))
+  (lib (name "pmic")(type "KiCad")(uri "${KIPRJMOD}/pmic.kicad_sym")(options "")(descr ""))
 )

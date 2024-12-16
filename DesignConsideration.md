@@ -108,3 +108,10 @@ While connecting camera module there are a lot of unconnected jumpers ,while tes
 Unit: AXP2101 \
 JLCPCB: available \
 Logic level: 3.3V 
+
+
+## Color LED 
+Unit: WS2812B \
+JLCPCB: Avaialble \
+Logic Level: 0.7 x VCC H : 0.3 x VCC L \
+Min 3.5V with 60mA \

@@ -124,7 +124,9 @@ Max current: 1.5A
 2. Kindly Name no connect jumpers as 0ohm resistors and reference as NC
 3. BE CAREFUL TO PLACE NC RESISTORS ISOLATED IN FOOTPRINT AS THEY NEED TO BE DESOLDERED OR SOLDERED WITHOUT DISTURBING SURROUNDINGS
 4. Refer [Design Considerations](DesignConsideration.md) for specific module requirements
-
+5. Crossrefer pinconnections between footprint and datasheet to check if they are the same.
+6. CHECK IF ALL I2S, I2C , SPI AND SDA INTERFACES HAVE PROPER PULLUPS INSTALLED ON SCHEMATIC
+7. Breakout a JTAG controller for debugging esp32
 
 ## TODO
 - [x] Create Kicad Project
