@@ -142,9 +142,10 @@ Max current: 1.5A
 
 ## Reference
 Kindly put circuit reference here
-1. None
+1. USB from here: https://github.com/jenschr/USB-C-Connectors
 
 ## Components Sourcing
 Adafruit OV5640 Camera Breakout
 -  Breakout Board uses FD5640 500W Camera sensor
 -  Available in bluk from Aliexpress
+- Switch: K2-1114SA-A4SW-06, https://jlcpcb.com/partdetail/OmronElectronics-B3S1000/C2733655
