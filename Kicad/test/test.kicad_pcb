@@ -7373,7 +7373,7 @@
 	(footprint "switchLibrary:K2-1114SA-A4SW-06"
 		(layer "F.Cu")
 		(uuid "7a37c3b9-2e84-40ee-a1c3-6b0ab0c3ac70")
-		(at 159.898871 120.51318 -150)
+		(at 159.455129 120.467423 -150)
 		(property "Reference" "SW2"
 			(at 0 -3.83 30)
 			(layer "F.SilkS")
