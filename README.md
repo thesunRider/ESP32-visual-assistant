@@ -148,3 +148,8 @@ Kindly put circuit reference here
 Adafruit OV5640 Camera Breakout
 -  Breakout Board uses FD5640 500W Camera sensor
 -  Available in bluk from Aliexpress
+
+AXP2101 Component
+- Inductor   3.1A 1uH ±20% 0806 Power Inductors ROHS
+  https://www.lcsc.com/product-detail/Power-Inductors_Chilisin-Elec-HEI201610K-1R0M-Q8DG_C329576.html
+
