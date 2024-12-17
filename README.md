@@ -148,4 +148,4 @@ Kindly put circuit reference here
 Adafruit OV5640 Camera Breakout
 -  Breakout Board uses FD5640 500W Camera sensor
 -  Available in bluk from Aliexpress
-- Switch: K2-1114SA-A4SW-06, https://jlcpcb.com/partdetail/OmronElectronics-B3S1000/C2733655
+- Switch: K2-1114SA-A4SW-06, https://jlcpcb.com/partdetail/OmronElectronics-B3S1000/C2733655 Check pin configs
