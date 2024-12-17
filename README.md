@@ -142,7 +142,7 @@ Max current: 1.5A
 
 ## Reference
 Kindly put circuit reference here
-1. None
+1. PMIC Reference Design https://oshwhub.com/mondraker/axp2101_2023-11-18_20-15-19
 
 ## Components Sourcing
 Adafruit OV5640 Camera Breakout
