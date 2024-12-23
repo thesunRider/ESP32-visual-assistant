@@ -142,12 +142,16 @@ Max current: 1.5A
 
 ## Reference
 Kindly put circuit reference here
-1. PMIC Reference Design https://oshwhub.com/mondraker/axp2101_2023-11-18_20-15-19
+1. USB from here: https://github.com/jenschr/USB-C-Connectors
+2. PMIC Reference Design https://oshwhub.com/mondraker/axp2101_2023-11-18_20-15-19
+
 
 ## Components Sourcing
 Adafruit OV5640 Camera Breakout
 -  Breakout Board uses FD5640 500W Camera sensor
 -  Available in bluk from Aliexpress
+
+- Switch: K2-1114SA-A4SW-06, https://jlcpcb.com/partdetail/OmronElectronics-B3S1000/C2733655
 
 AXP2101 Component
 - Inductor   3.1A 1uH ±20% 0806 Power Inductors ROHS
