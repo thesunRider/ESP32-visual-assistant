@@ -7198,16 +7198,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 198.12) (xy 276.86 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b8c520-ec84-4d55-a121-7c59fd8fffa7")
-	)
-	(wire
-		(pts
 			(xy 214.63 96.52) (xy 222.25 96.52)
 		)
 		(stroke
@@ -7655,16 +7645,6 @@
 			(type default)
 		)
 		(uuid "cb270e2a-cf43-4323-8ae4-bce42d614822")
-	)
-	(wire
-		(pts
-			(xy 276.86 198.12) (xy 276.86 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4e9793-b71f-4fdd-854b-c6647ba72cf8")
 	)
 	(wire
 		(pts
@@ -9624,28 +9604,6 @@
 			)
 		)
 	)
-	(global_label "EN"
-		(shape input)
-		(at 288.29 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a69422cb-0007-4928-b9ec-489851576a55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.7547 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAM_MCLK"
 		(shape input)
 		(at 113.03 275.59 0)
@@ -10667,71 +10625,6 @@
 			(project "test"
 				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 276.86 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14cafec7-7f07-4dc6-b664-c580fc4966b2")
-		(property "Reference" "#PWR027"
-			(at 276.86 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08229ca4-37c6-4b33-907e-ca738c100e50")
-		)
-		(instances
-			(project "test"
-				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13788,74 +13681,6 @@
 			(project "test"
 				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 283.21 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "563e6bc3-2232-49b0-be4f-00c8794e85fc")
-		(property "Reference" "SW1"
-			(at 283.21 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 283.21 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 283.21 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 283.21 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 283.21 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74892abf-eef2-4604-b3fd-945a3e42f970")
-		)
-		(pin "2"
-			(uuid "886851c7-58bf-429d-a291-77493e3c331f")
-		)
-		(instances
-			(project ""
-				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
