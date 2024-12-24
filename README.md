@@ -151,8 +151,9 @@ Adafruit OV5640 Camera Breakout
 -  Breakout Board uses FD5640 500W Camera sensor
 -  Available in bluk from Aliexpress
 - Switch: K2-1114SA-A4SW-06, https://jlcpcb.com/partdetail/OmronElectronics-B3S1000/C2733655 Check pin configs
-
 - Switch: K2-1114SA-A4SW-06, https://jlcpcb.com/partdetail/OmronElectronics-B3S1000/C2733655
+- Speakers , https://www.lcsc.com/product-detail/Speakers_INGHAi-GSPK151035PN-8R0-5W-L35-1-25T_C530539.html
+- Tactile Switches https://de.aliexpress.com/item/32912259140.html?gatewayAdapt=glo2deu
 
 AXP2101 Component
 - Inductor   3.1A 1uH ±20% 0806 Power Inductors ROHS

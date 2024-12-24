@@ -5963,12 +5963,6 @@
 		(uuid "c87c9df7-0d56-4d28-8042-db49d358a5fc")
 	)
 	(junction
-		(at 231.14 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca03f9ee-c83c-49ea-9c5d-6dadfbd8e564")
-	)
-	(junction
 		(at 359.41 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5997,6 +5991,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffaff889-6a1f-4480-9410-0beb8f489fcd")
+	)
+	(no_connect
+		(at 226.06 149.86)
+		(uuid "0276595c-9f2c-4449-ae3b-4e98653e7222")
 	)
 	(no_connect
 		(at 104.14 160.02)
@@ -6069,10 +6067,6 @@
 	(no_connect
 		(at 60.96 83.82)
 		(uuid "ba105b23-828c-4ef4-949f-6d9ddb1e8be0")
-	)
-	(no_connect
-		(at 250.19 149.86)
-		(uuid "beee9aca-2c0e-485b-be95-b37f3cb763d7")
 	)
 	(no_connect
 		(at 60.96 86.36)
@@ -6274,16 +6268,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 142.24) (xy 242.57 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4327fc-7012-424b-95a0-8362c5ead7ae")
-	)
-	(wire
-		(pts
 			(xy 173.99 177.8) (xy 173.99 171.45)
 		)
 		(stroke
@@ -6314,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 138.43) (xy 231.14 139.7)
+			(xy 222.25 138.43) (xy 222.25 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6924,16 +6908,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 149.86) (xy 234.95 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b2f135-3646-423a-a390-6c9d0dea0564")
-	)
-	(wire
-		(pts
 			(xy 209.55 189.23) (xy 209.55 190.5)
 		)
 		(stroke
@@ -7044,7 +7018,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 139.7) (xy 231.14 139.7)
+			(xy 222.25 139.7) (xy 218.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7571,16 +7545,6 @@
 			(type default)
 		)
 		(uuid "b5f259ec-120b-44b2-97f9-2c0a305991d2")
-	)
-	(wire
-		(pts
-			(xy 231.14 139.7) (xy 242.57 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74038cc-2112-447e-b45b-8502d1898e93")
 	)
 	(wire
 		(pts
@@ -10265,6 +10229,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22461793"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "XL-5050RGBC-WS2812B-S"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8f2c9130-1f92-4f89-b0c0-169613d2849e")
 		)
@@ -10625,82 +10607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 242.57 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13176742-8531-4b73-a052-ad6b4f886aaf")
-		(property "Reference" "D2"
-			(at 254 143.5414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 254 146.0814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 243.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 245.11 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 242.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f35e4942-f47a-43b4-8e5d-d9cc360168fb")
-		)
-		(pin "3"
-			(uuid "121e1025-727d-4afd-b369-6a3ebb57edb7")
-		)
-		(pin "2"
-			(uuid "69b96d5e-9529-4cc2-9146-a92a239ed447")
-		)
-		(pin "1"
-			(uuid "446ceb87-03b6-4dc4-b1b7-d561b3cf83fd")
-		)
-		(instances
-			(project "test"
-				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 146.05 148.59 0)
 		(unit 1)
@@ -11008,7 +10914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070436_Analog-Devices-Inc--Maxim-Integrated-MAX98357AEWL-T_C2682619.pdf"
 			(at 240.03 207.01 0)
 			(effects
 				(font
@@ -11017,7 +10923,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+		(property "Description" "Monaural 3.2Wx2@4Ω BGA-9(1.3x1.3) Audio Amplifiers ROHS"
+			(at 240.03 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2682619"
+			(at 240.03 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "MAX98357AEWL+T"
 			(at 240.03 204.47 0)
 			(effects
 				(font
@@ -11572,7 +11496,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "OV5640"
 			(at 95.885 231.14 0)
 			(effects
 				(font
@@ -11589,7 +11513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC01-S24FCA-00_C262669.pdf"
 			(at 97.79 240.03 0)
 			(effects
 				(font
@@ -11598,7 +11522,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip type 24P Bottom Contact Horizontal attachment 0.5mm SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+			(at 97.79 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C262669"
+			(at 97.79 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "AFC01-S24FCA-00"
 			(at 97.79 240.03 0)
 			(effects
 				(font
@@ -11698,7 +11640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "263c0dec-1532-4e63-8edd-c8fc57e0cb82")
-		(property "Reference" "3v3J"
+		(property "Reference" "3v3J1"
 			(at 129.54 110.4899 0)
 			(effects
 				(font
@@ -11752,7 +11694,7 @@
 		(instances
 			(project "test"
 				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "3v3J")
+					(reference "3v3J1")
 					(unit 1)
 				)
 			)
@@ -13155,7 +13097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810061013_Korean-Hroparts-Elec-K2-1114SA-A4SW-06_C136662.pdf"
 			(at 229.87 64.77 0)
 			(effects
 				(font
@@ -13164,7 +13106,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "3.5mm 1.65mm Rectangle button 50mA Horizontal attachment 4.8mm SPST 100000 Times 250gf 12V SMD Tactile Switches ROHS"
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C136662"
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "K2-1114SA-A4SW-06"
 			(at 229.87 69.85 0)
 			(effects
 				(font
@@ -13223,7 +13183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810061013_Korean-Hroparts-Elec-K2-1114SA-A4SW-06_C136662.pdf"
 			(at 241.3 92.71 0)
 			(effects
 				(font
@@ -13232,7 +13192,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "3.5mm 1.65mm Rectangle button 50mA Horizontal attachment 4.8mm SPST 100000 Times 250gf 12V SMD Tactile Switches ROHS"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C136662"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "K2-1114SA-A4SW-06"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -14287,72 +14265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 242.57 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e6dd609-46b5-4fb9-a250-cd4a75c93eb4")
-		(property "Reference" "#PWR043"
-			(at 242.57 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18e172ae-6242-47f8-83aa-bdff41d728c7")
-		)
-		(instances
-			(project "test"
-				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 149.86 187.96 0)
 		(unit 1)
@@ -14586,7 +14498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312010321_TDK-InvenSense-ICS-43434_C5656610.pdf"
 			(at 236.22 259.08 0)
 			(effects
 				(font
@@ -14595,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Omni-directional 64dB MEMS Microphones ROHS"
 			(at 236.22 259.08 0)
 			(effects
 				(font
@@ -14721,6 +14633,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5656610"
+			(at 236.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "ICS-43434"
+			(at 236.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15056,7 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404021114_Omron-Electronics-B3S-1000_C2733655.pdf"
 			(at 201.93 66.04 0)
 			(effects
 				(font
@@ -15065,7 +14995,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile Switches ROHS"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2733655"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "B3S-1000"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -15115,7 +15063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 116.84 149.86 0)
 			(effects
 				(font
@@ -15135,6 +15083,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 116.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6364721"
+			(at 116.84 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "AHW2012F-1R0KTF"
+			(at 116.84 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15508,7 +15474,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74f5a42c-4528-41a8-a982-7a17e61a684a")
 		(property "Reference" "U5"
 			(at 88.265 208.28 0)
@@ -15518,8 +15483,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 88.265 209.55 0)
+		(property "Value" "AXP2101"
+			(at 87.884 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15535,7 +15500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305060916_X-Powers-Tech-AXP2101_C3036461.pdf"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -15544,7 +15509,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "QFN-40-EP(5x5) Power Management - Specialized ROHS"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3036461"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "AXP2101"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -17388,7 +17371,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "24Mhz"
 			(at 49.53 226.06 0)
 			(effects
 				(font
@@ -17405,7 +17388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407310922_YXC-Crystal-Oscillators-OT252024MJBA4SL_C669072.pdf"
 			(at 49.53 229.87 0)
 			(effects
 				(font
@@ -17414,7 +17397,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.8V~3.3V ±10ppm 4mA ±20ppm CMOS 24MHz SMD2520-4P Crystal Oscillators ROHS"
+			(at 49.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C669072"
+			(at 49.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "OT252024MJBA4SL"
 			(at 49.53 229.87 0)
 			(effects
 				(font
@@ -17670,7 +17671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 119.38 138.43 0)
 			(effects
 				(font
@@ -17690,6 +17691,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6364721"
+			(at 119.38 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "AHW2012F-1R0KTF"
+			(at 119.38 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18801,7 +18820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810061013_Korean-Hroparts-Elec-K2-1114SA-A4SW-06_C136662.pdf"
 			(at 201.93 91.44 0)
 			(effects
 				(font
@@ -18810,7 +18829,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "3.5mm 1.65mm Rectangle button 50mA Horizontal attachment 4.8mm SPST 100000 Times 250gf 12V SMD Tactile Switches ROHS"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C136662"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "K2-1114SA-A4SW-06"
 			(at 201.93 96.52 0)
 			(effects
 				(font
@@ -20248,7 +20285,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 231.14 138.43 0)
+		(at 222.25 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20257,7 +20294,7 @@
 		(fields_autoplaced yes)
 		(uuid "e09a3fd9-3e97-4ec3-b78d-9a41ee2146d8")
 		(property "Reference" "#PWR073"
-			(at 231.14 142.24 0)
+			(at 222.25 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20266,7 +20303,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 231.14 133.35 0)
+			(at 222.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20274,7 +20311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 138.43 0)
+			(at 222.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,7 +20320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 138.43 0)
+			(at 222.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20292,7 +20329,7 @@
 			)
 		)
 		(property "Description" "System Voltage"
-			(at 231.14 138.43 0)
+			(at 222.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20895,6 +20932,24 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C223907"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "TYPE-C-31-M-14"
 			(at 45.72 93.98 0)
 			(effects
 				(font
