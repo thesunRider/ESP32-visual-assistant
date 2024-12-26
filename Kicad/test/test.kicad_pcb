@@ -13286,7 +13286,7 @@
 	(footprint "Footprint_Wareit_Mic:SMD_CONNECTOR_PAD"
 		(layer "B.Cu")
 		(uuid "21027095-7118-4d73-a5eb-1f9f71ffedac")
-		(at 169.0664 96.0508 180)
+		(at 167.3336 96.4508 180)
 		(property "Reference" "3v3J1"
 			(at 0.1524 1.1176 0)
 			(unlocked yes)
@@ -18453,7 +18453,7 @@
 	(footprint "Footprint_Wareit_Mic:SMD_CONNECTOR_PAD"
 		(layer "B.Cu")
 		(uuid "ef095bc5-96f2-43c4-9ed5-8bb2c507a0b6")
-		(at 164.6664 101.6508 180)
+		(at 163.2664 100.6508 180)
 		(property "Reference" "3v3J2"
 			(at 0.1524 1.1176 0)
 			(unlocked yes)
@@ -18577,9 +18577,9 @@
 	(footprint "Footprint_Wareit_Mic:SMD_CONNECTOR_PAD"
 		(layer "B.Cu")
 		(uuid "ef39172c-f5c5-4dbe-a32d-bc6bb901e87f")
-		(at 154.3492 102.5336 90)
+		(at 167.1336 92.7492)
 		(property "Reference" "BAT1"
-			(at 0.1524 1.1176 -90)
+			(at 0.1524 1.1176 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "d4448620-e6ed-41d6-b7de-98dfe1c9f0ec")
@@ -18592,7 +18592,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 -1 -90)
+			(at 0 -1 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "0a9e197d-1638-4cdf-8397-a76815cd37b0")
@@ -18605,7 +18605,7 @@
 			)
 		)
 		(property "Footprint" "Footprint_Wareit_Mic:SMD_CONNECTOR_PAD"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18619,7 +18619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18633,7 +18633,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18663,7 +18663,7 @@
 			(uuid "a24fe6e6-f508-402e-8f73-353489cf28d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 -90)
+			(at 0 -2.5 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "5f117e29-05bc-4700-bbc3-9bf295734300")
@@ -18676,7 +18676,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.1336 0.0508 90)
+			(at -2.1336 0.0508)
 			(size 2 2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.05)
@@ -18687,7 +18687,7 @@
 			(uuid "f5a7e2ee-3531-4bba-8c0b-0360d8641970")
 		)
 		(pad "2" smd roundrect
-			(at 2.1336 0.0508 90)
+			(at 2.1336 0.0508)
 			(size 2 2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.05)
