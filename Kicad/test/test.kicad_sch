@@ -7140,6 +7140,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 219.71) (xy 220.98 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433e0827-e169-422c-85be-b73f4328191e")
+	)
+	(wire
+		(pts
 			(xy 71.12 186.69) (xy 71.12 185.42)
 		)
 		(stroke
@@ -8347,16 +8357,6 @@
 			(type default)
 		)
 		(uuid "dc45a825-35fa-43ff-9db5-a4ae166f9c2e")
-	)
-	(wire
-		(pts
-			(xy 220.98 217.17) (xy 220.98 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de211c16-0a97-4ec1-b4b6-e2669e5c9973")
 	)
 	(wire
 		(pts
@@ -20758,7 +20758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 218.44 0)
+		(at 220.98 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20767,7 +20767,7 @@
 		(fields_autoplaced yes)
 		(uuid "dafc98b5-49da-43ff-b796-f90a6a19d4e2")
 		(property "Reference" "#PWR017"
-			(at 220.98 224.79 0)
+			(at 220.98 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20776,7 +20776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 223.52 0)
+			(at 220.98 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20784,7 +20784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 218.44 0)
+			(at 220.98 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20793,7 +20793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 218.44 0)
+			(at 220.98 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20802,7 +20802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 218.44 0)
+			(at 220.98 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,7 +22025,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 208.28 214.63 0)
+		(at 220.98 214.63 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -22033,7 +22033,7 @@
 		(dnp no)
 		(uuid "f95abe04-dfb8-4a85-88c9-16b59bef8309")
 		(property "Reference" "JP4"
-			(at 210.82 211.074 0)
+			(at 217.424 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22041,7 +22041,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 208.28 217.424 0)
+			(at 223.774 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22049,7 +22049,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 208.28 214.63 0)
+			(at 220.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22058,7 +22058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 214.63 0)
+			(at 220.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22067,7 +22067,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 208.28 214.63 0)
+			(at 220.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
