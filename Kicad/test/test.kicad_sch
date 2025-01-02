@@ -8974,7 +8974,7 @@
 	)
 	(global_label "WS_AMP"
 		(shape input)
-		(at 321.31 214.63 180)
+		(at 321.31 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8984,7 +8984,7 @@
 		)
 		(uuid "0ea7bd2b-97d7-49ef-960f-7b23024169ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.8863 214.63 0)
+			(at 310.8863 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9502,7 @@
 	)
 	(global_label "BCLK_AMP"
 		(shape input)
-		(at 321.31 212.09 180)
+		(at 321.31 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9512,7 +9512,7 @@
 		)
 		(uuid "57d621da-e3ea-4076-b5b2-5e3b1b004621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.7091 212.09 0)
+			(at 308.7091 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,6 +13328,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 241.3 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40cd496b-a010-42df-a162-c344e138f630")
+		(property "Reference" "SW1"
+			(at 241.046 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 241.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SW2_1825027-C_TEC"
+			(at 241.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220707_TE-Connectivity-1825027-8_C266196.pdf"
+			(at 241.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.25mm Round Button 50mA Bend-in SPST 160gf 24V Plugin Tactile Switches ROHS"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C266196"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part" "1825027-8"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a1dacc9-63ac-4278-b2d4-4c51046d7224")
+		)
+		(pin "2"
+			(uuid "27040659-deed-46c2-a0f1-8e547cee20d7")
+		)
+		(instances
+			(project "test"
+				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 288.29 160.02 0)
 		(unit 1)
@@ -13676,92 +13761,6 @@
 			(project "test"
 				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 241.3 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "497ef2cc-4398-4ef1-b4d4-8fe74f20ef03")
-		(property "Reference" "SW3"
-			(at 241.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "switchLibrary:K2-1114SA-A4SW-06"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810061013_Korean-Hroparts-Elec-K2-1114SA-A4SW-06_C136662.pdf"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.5mm 1.65mm Rectangle button 50mA Horizontal attachment 4.8mm SPST 100000 Times 250gf 12V SMD Tactile Switches ROHS"
-			(at 241.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C136662"
-			(at 241.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part" "K2-1114SA-A4SW-06"
-			(at 241.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9bd45c8-fea6-4c1d-a668-13cff201b775")
-		)
-		(pin "2"
-			(uuid "10dbe013-d725-49f6-8288-4607d1d8371f")
-		)
-		(instances
-			(project "test"
-				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -19349,7 +19348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switchLibrary:K2-1114SA-A4SW-06"
+		(property "Footprint" "Library:SW2_1825027-C_TEC"
 			(at 201.93 91.44 0)
 			(effects
 				(font
@@ -19358,7 +19357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810061013_Korean-Hroparts-Elec-K2-1114SA-A4SW-06_C136662.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220707_TE-Connectivity-1825027-8_C266196.pdf"
 			(at 201.93 91.44 0)
 			(effects
 				(font
@@ -19367,7 +19366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.5mm 1.65mm Rectangle button 50mA Horizontal attachment 4.8mm SPST 100000 Times 250gf 12V SMD Tactile Switches ROHS"
+		(property "Description" "3.25mm Round Button 50mA Bend-in SPST 160gf 24V Plugin Tactile Switches ROHS"
 			(at 201.93 96.52 0)
 			(effects
 				(font
@@ -19376,7 +19375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C136662"
+		(property "LCSC Part" "C266196"
 			(at 201.93 96.52 0)
 			(effects
 				(font
@@ -19385,7 +19384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part" "K2-1114SA-A4SW-06"
+		(property "Mfr Part" "1825027-8"
 			(at 201.93 96.52 0)
 			(effects
 				(font

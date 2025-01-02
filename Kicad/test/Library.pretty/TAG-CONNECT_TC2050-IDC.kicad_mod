@@ -114,7 +114,7 @@
 	)
 	(fp_line
 		(start 3.1 -3.72795)
-		(end 6.17 -3.72795)
+		(end 4.62 -3.72795)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -123,8 +123,8 @@
 		(uuid "59e9f1e3-83c6-4c99-972b-9f0b1cf57117")
 	)
 	(fp_line
-		(start 6.17 -3.72795)
-		(end 6.17 3.72795)
+		(start 4.62 -3.73295)
+		(end 4.62 3.72295)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -133,8 +133,8 @@
 		(uuid "ad2e6594-da9c-45fd-bafa-ffb6008c17aa")
 	)
 	(fp_line
-		(start 6.17 3.72795)
-		(end 3.35 3.72795)
+		(start 4.62 3.72795)
+		(end 1.8 3.72795)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -154,8 +154,8 @@
 		(uuid "56ee7a6a-0bd5-4753-a573-f9ed8059ada3")
 	)
 	(fp_line
-		(start -6.42 -3.978)
-		(end 6.42 -3.978)
+		(start -5.23 -3.98)
+		(end 4.62 -3.98)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -164,8 +164,8 @@
 		(uuid "c4353b5b-c276-4bda-858c-14448ef4515a")
 	)
 	(fp_line
-		(start -6.42 3.978)
-		(end -6.42 -3.978)
+		(start -5.23 3.97)
+		(end -5.23 -3.98)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -174,8 +174,8 @@
 		(uuid "7e30e972-421e-4816-9655-0c558b2e8a0c")
 	)
 	(fp_line
-		(start 6.42 -3.978)
-		(end 6.42 3.978)
+		(start 4.62 -3.98)
+		(end 4.62 3.97)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -184,8 +184,8 @@
 		(uuid "9a45f6fa-078e-470b-8db1-f622c7a02da6")
 	)
 	(fp_line
-		(start 6.42 3.978)
-		(end -6.42 3.978)
+		(start 4.62 3.97)
+		(end -5.23 3.97)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -195,7 +195,7 @@
 	)
 	(fp_line
 		(start -6.17 -3.72795)
-		(end 6.17 -3.72795)
+		(end 4.62 -3.72795)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -214,8 +214,8 @@
 		(uuid "8bdd7dbe-8c39-48ad-ad42-881d9ef5d2f4")
 	)
 	(fp_line
-		(start 6.17 -3.72795)
-		(end 6.17 3.72795)
+		(start 4.61 -3.73)
+		(end 4.61 3.7259)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -224,8 +224,8 @@
 		(uuid "7c8f214c-34df-4a6a-937d-1dbc3eac229f")
 	)
 	(fp_line
-		(start 6.17 3.72795)
-		(end -6.17 3.72795)
+		(start 4.62 3.72795)
+		(end -6.18 3.72795)
 		(stroke
 			(width 0.127)
 			(type solid)
