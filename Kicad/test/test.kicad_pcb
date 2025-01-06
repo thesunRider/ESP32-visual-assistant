@@ -4543,7 +4543,7 @@
 			(pintype "passive")
 			(uuid "2f11ee0e-76dc-4828-80da-53683d5bf689")
 		)
-		(model "C:/Users/usama/Desktop/New folder/Ware_It_ESP32S3_MylesChatman/Kicad/ImportedComponents/c-1825027-8-g-3d.stp"
+		(model "../ImportedComponents/c-1825027-8-g-3d.stp"
 			(offset
 				(xyz 2.25 -2.5 4)
 			)
@@ -9169,7 +9169,7 @@
 			(pintype "passive")
 			(uuid "852333d7-d4f1-49fa-bcb2-0445f8f2b8c7")
 		)
-		(model "C:/Users/usama/Desktop/New folder/Ware_It_ESP32S3_MylesChatman/Kicad/ImportedComponents/c-1825027-8-g-3d.stp"
+		(model "../ImportedComponents/c-1825027-8-g-3d.stp"
 			(offset
 				(xyz 2.25 -2.5 4)
 			)
@@ -16171,7 +16171,7 @@
 			(zone_connect 2)
 			(uuid "126149a7-7233-40d3-9ff2-aa44f337349f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
