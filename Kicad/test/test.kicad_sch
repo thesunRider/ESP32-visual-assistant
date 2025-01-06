@@ -9216,7 +9216,7 @@
 	)
 	(global_label "SW_L3"
 		(shape input)
-		(at 321.31 186.69 180)
+		(at 321.31 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9226,7 +9226,7 @@
 		)
 		(uuid "2b6fb6bb-2858-467e-b84f-00a6f10c2627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4587 186.69 0)
+			(at 312.4587 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9458,7 @@
 	)
 	(global_label "SW_L2"
 		(shape input)
-		(at 321.31 184.15 180)
+		(at 321.31 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9468,7 +9468,7 @@
 		)
 		(uuid "4a049a8c-48e6-4291-9f98-5f96641102cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4587 184.15 0)
+			(at 312.4587 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
