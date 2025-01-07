@@ -6445,12 +6445,6 @@
 		(uuid "9bceabbf-817d-4f5c-aefa-9061fa6e6aa4")
 	)
 	(junction
-		(at 278.13 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a36403d4-1dd5-4ef1-b4df-13235fce8ce4")
-	)
-	(junction
 		(at 209.55 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6890,16 +6884,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 134.62) (xy 278.13 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d01aa1b-598f-448e-b4eb-4ad8febdb7a3")
-	)
-	(wire
-		(pts
 			(xy 222.25 138.43) (xy 222.25 139.7)
 		)
 		(stroke
@@ -6907,16 +6891,6 @@
 			(type default)
 		)
 		(uuid "1f6f703c-6ef8-4e01-ba37-3b142525c53c")
-	)
-	(wire
-		(pts
-			(xy 278.13 134.62) (xy 278.13 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe9b5e9-38d4-4b0e-8a58-1fb621e9f48e")
 	)
 	(wire
 		(pts
@@ -7567,16 +7541,6 @@
 			(type default)
 		)
 		(uuid "747b7986-92e9-4ceb-b2a2-4f8fe4123f3e")
-	)
-	(wire
-		(pts
-			(xy 278.13 137.16) (xy 289.56 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770c6531-960b-4328-a868-9275d1cbbe4e")
 	)
 	(wire
 		(pts
@@ -8430,16 +8394,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 137.16) (xy 278.13 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e8b7aa-e426-4eb1-9076-0fdf2a1cda59")
-	)
-	(wire
-		(pts
 			(xy 158.75 240.03) (xy 170.18 240.03)
 		)
 		(stroke
@@ -8794,7 +8748,7 @@
 	)
 	(text "ESP32 Main Board\n"
 		(exclude_from_sim no)
-		(at 277.876 133.35 0)
+		(at 307.34 133.096 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9188,6 +9142,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC_SDA"
+		(shape input)
+		(at 289.56 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24228d09-09b6-4be1-91b9-2b7d627edb92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.4429 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10710,6 +10686,28 @@
 			)
 		)
 	)
+	(global_label "PMIC_SCL"
+		(shape input)
+		(at 289.56 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebf8d5ab-b977-4e84-a5a0-73eabfda165a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.5034 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TXD"
 		(shape input)
 		(at 289.56 139.7 180)
@@ -10865,72 +10863,6 @@
 			(project ""
 				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 278.13 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05c67aa0-eb89-4ef7-af5e-335f4ef729cd")
-		(property "Reference" "#PWR089"
-			(at 278.13 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 278.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d76847-dfda-42a5-a0f1-2ab3b6d1953d")
-		)
-		(instances
-			(project "test"
-				(path "/2b9d0de6-8b12-4765-99af-867ac9f145de"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
