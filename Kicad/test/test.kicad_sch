@@ -11458,7 +11458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monaural 3.2Wx2@4Ω BGA-9(1.3x1.3) Audio Amplifiers ROHS"
+		(property "Description" "Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance"
 			(at 240.03 204.47 0)
 			(effects
 				(font
@@ -11467,7 +11467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2682619"
+		(property "LCSC Part" "C910544"
 			(at 240.03 204.47 0)
 			(effects
 				(font
@@ -11476,7 +11476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part" "MAX98357AEWL+T"
+		(property "Mfr Part" "MAX98357AETE+T"
 			(at 240.03 204.47 0)
 			(effects
 				(font
