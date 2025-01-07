@@ -499,7 +499,7 @@
       "plot": "Gerber",
       "pos_files": "Gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "test.step",
       "svg": "",
       "vrml": ""
     },
