@@ -1,0 +1,29 @@
+null,Designator,Value,Footprint,Description,LCSC Part #,Mfr Part,Quantity,,
+1,"C10, C11, C12, C13, C27, C28, C29, C30, C31, C32, C34",100n,C_0402_1005Metric,Unpolarized capacitor,C1525,CL05B104KO5NNNC,10,,16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+2,"C2, C4, C6, C16, C17, C19, C22",22u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C59461,CL10A226MQ8NRNC,7,,6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+3,"C15, C18, C20, C21,C23, C25, C26,",10u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C19702,CL10A106KP8NNNC,6,,10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+4,"C3, C5, C7",0.1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C14663,CC0603KRX7R9BB104,3,,50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+5,"C9, C33",15p,C_0402_1005Metric,Unpolarized capacitor,C1548,0402CG150J500NT,2,,50V 15pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+6,"C1, C14, C24",1u,C_0603_1608Metric,Unpolarized capacitor,C15849,CL10A105KB8NNNC,3,,50V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+7,C8,100u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C141660,GRM21BR60J107ME15L,1,,6.3V 100uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+9,"R1, R8, R9, R12, R13, R14, R15",10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,C25804,0603WAF1002T5E,7,,100mW Thick Film Resistors 75V ±100ppm/? ±1% 10k? 0603 Chip Resistor - Surface Mount ROHS
+10,"R2, R3",47k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,C25819,0603WAF4702T5E,2,,100mW Thick Film Resistors 75V ±100ppm/? ±1% 47k? 0603 Chip Resistor - Surface Mount ROHS
+11,"R7, R10",4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,C23162,0603WAF4701T5E,2,,100mW Thick Film Resistors 75V ±100ppm/? ±1% 4.7k? 0603 Chip Resistor - Surface Mount ROHS
+12,R4,68,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,C27592,0603WAF680JT5E,1,,100mW Thick Film Resistors 75V ±100ppm/? ±1% 68? 0603 Chip Resistor - Surface Mount ROHS
+13,R11,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,C21190,0603WAF1001T5E,1,,100mW Thick Film Resistors 75V ±100ppm/? ±1% 1k? 0603 Chip Resistor - Surface Mount ROHS
+14,R16,1M,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,C22935,0603WAF1004T5E,1,,100mW Thick Film Resistors 75V ±100ppm/? ±1% 1M? 0603 Chip Resistor - Surface Mount ROHS
+15,"L1, L2",1u,L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,Inductor,C6364721,AHW2012F-1R0KTF,2,,430mA 1uH ±10% 1? 0805 Inductors (SMD) ROHS
+16,D1,LED,LED_0402_1005Metric,Light emitting diode,C965793,XL-1005UGC,1,,25mA 249mcd Colorless transparent lens -30?~+85? Positive Stick 516nm~531nm Emerald 120° 80mW 3V 0402 LED Indication - Discrete ROHS
+17,D4,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,RGB LED with integrated controller,C22461793,XL-5050RGBC-WS2812B-S,1,,"SMD-4P,5x5mm RGB LEDs(Built-in IC) ROHS"
+18,U1,MAX98357A,TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,Monaural 3.2Wx2@4Î© BGA-9(1.3x1.3) Audio Amplifiers ROHS,C2682619,MAX98357AEWL+T,1,,
+19,U2,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1,"RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD",C2913205,,1,,
+20,U3,OV5640,TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal,"Flip type 24P Bottom Contact Horizontal attachment 0.5mm SMD,P=0.5mm,Surface Mountï¼ŒRight Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS",C262669,AFC01-S24FCA-00,1,,
+21,U4,24Mhz,YSO110TR,1.8V~3.3V Â±10ppm 4mA Â±20ppm CMOS 24MHz SMD2520-4P Crystal Oscillators ROHS,C669072,OT252024MJBA4SL,1,,
+22,U5,AXP2101,QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm,QFN-40-EP(5x5) Power Management - Specialized ROHS,C3036461,AXP2101,1,,
+23,"SW1, SW2",SW_Push,SW2_1825027-C_TEC,3.25mm Round Button 50mA Bend-in SPST 160gf 24V Plugin Tactile Switches ROHS,C266196,1825027-8,2,,
+24,SW4,SW_Push,K2-1114SA-A4SW-06,3.5mm 1.65mm Rectangle button 50mA Horizontal attachment 4.8mm SPST 100000 Times 250gf 12V SMD Tactile Switches ROHS,C136662,K2-1114SA-A4SW-06,1,,
+25,SW5,SW_Push,SW_SPST_B3S-1000,Tactile Switches ROHS,C2733655,B3S-1000,1,,
+27,"JP2, JP3, JP4",Jumper,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,"Jumper, 2-pole, open",,,3,,
+28,"NC1, NC3, NC5",0,R_1206_3216Metric,Resistor,,,3,,
+29,MK2,ICS-43434,InvenSense_ICS-43434-6_3.5x2.65mm,Omni-directional 64dB MEMS Microphones ROHS,C5656610,ICS-43434,1,,
+31,P1,USB_C_Plug_USB2.0,USB_C_Receptacle_HRO_TYPE-C-31-M-12,USB 2.0-only Type-C Plug connector,C2982555,TYPE-C-31-M-14,1,,
