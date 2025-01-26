@@ -56,49 +56,6 @@ Listing of Technologies used in the design:
 - Microphone - [Mems Mic](https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/)
 - Main Unit - [ESP32-S3-WROOM-1-N4](https://www.digikey.de/de/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16163950)
 
-## Askables
-1. Where in the product does the camera go 
-2. Need The cad of the device
-
-## Problems
-1. ESP32 Cam schematics not well defined, most schematics on internet are wrong (NEED TO CHECK WITH DATASHEET)
-
-The schematic layout and tyhe original pin index is inverted
-Schmeatic Index:
-| Pin | Schematic Name | Actual Name |
-|-----|---------------|--------------|
-| 1   | Y0            | NC           |
-| 2   | Y1            | AGND         |
-| 3   | Y4            | SIO_DAT      |
-| 4   | Y3            | AVDD         |
-| 5   | Y5            | SIO_CLK      |
-| 6   | Y2            | RESET        |
-| 7   | Y6            | VSYNC        |
-| 8   | PCLK          | PWDN         |
-| 9   | Y7            | HREF         |
-| 10  | DGND          | DVDD         |
-| 11  | Y8            | DOVDD        |
-| 12  | XCLK          | Y9           |
-| 13  | Y9            | XCLK         |
-| 14  | DOVDD         | Y8           |
-| 15  | DVDD          | DGND         |
-| 16  | HREF          | Y7           |
-| 17  | PWDN          | PCLK         |
-| 18  | VSYNC         | Y6           |
-| 19  | RESET         | Y2           |
-| 20  | SIO_CLK       | Y5           |
-| 21  | AVDD          | Y3           |
-| 22  | SIO_DAT       | Y4           |
-| 23  | AGND          | Y1           |
-| 24  | NC            | Y0           |
-
-ORIGINAL Index:
-
-
-
-Cross Refer OV5640-A.pdf and Ov5640-Camera-Schematic.pdf
-
-
 
 ## Flowchart
 
@@ -130,15 +87,17 @@ Max current: 1.5A
 
 ## TODO
 - [x] Create Kicad Project
-- [ ] Make BMC and Avail power Rails
-- [ ] Craete Flowchart
+- [x] Make BMC and Avail power Rails
+- [x] Craete Flowchart
 - [x] Create Esp32 Base 
 - [x] Create Amp Schematic
 - [x] Create Mic Schematic
 - [x] Create Camera Schematic - Created a symbol in Kicad for testing (proceeding with it - need reverse engineer testing)
-- [ ] Add switch Schematic
-- [ ] Link Components to PCB 
-- [ ] Test Cases for Hardware
+- [x] Add switch Schematic
+- [x] Link Components to PCB 
+- [x] Test Cases for Hardware
+
+Project Finished Rev2 Board created with superior perfomance
 
 ## Reference
 Kindly put circuit reference here
