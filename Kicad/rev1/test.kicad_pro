@@ -501,7 +501,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerber",
-      "pos_files": "Gerber/",
+      "pos_files": "Fabrication Files/",
       "specctra_dsn": "",
       "step": "test.step",
       "svg": "",

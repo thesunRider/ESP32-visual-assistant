@@ -1,5 +1,5 @@
 null,Designator,Value,Footprint,Description,LCSC Part #,Mfr Part,Quantity,,
-1,"C10, C11, C12, C13, C27, C28, C29, C30, C31, C32, C34",100n,C_0402_1005Metric,Unpolarized capacitor,C1525,CL05B104KO5NNNC,10,,16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+1,"C10, C11, C12, C13, C27, C28, C29, C30, C31, C34",100n,C_0402_1005Metric,Unpolarized capacitor,C1525,CL05B104KO5NNNC,10,,16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 2,"C2, C4, C6, C16, C17, C19, C22",22u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C59461,CL10A226MQ8NRNC,7,,6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 3,"C15, C18, C20, C21,C23, C25, C26,",10u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C19702,CL10A106KP8NNNC,6,,10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 4,"C3, C5, C7",0.1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,C14663,CC0603KRX7R9BB104,3,,50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
