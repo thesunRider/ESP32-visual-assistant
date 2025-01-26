@@ -8154,7 +8154,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 238.76) (xy 133.35 238.76)
+			(xy 107.95 238.76) (xy 119.38 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8745,6 +8745,16 @@
 			(type none)
 		)
 		(uuid d45af970-b318-4df5-9311-b08a75977810)
+	)
+	(text "AXP2101 SCL SDA Inverted!"
+		(exclude_from_sim no)
+		(at 320.294 257.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d9ba365-39eb-4f5e-b6d6-ab7b26221e4e")
 	)
 	(text "ESP32 Main Board\n"
 		(exclude_from_sim no)
@@ -9676,7 +9686,7 @@
 	)
 	(global_label "CAM_SCL"
 		(shape input)
-		(at 133.35 238.76 0)
+		(at 119.38 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9686,7 +9696,7 @@
 		)
 		(uuid "6cf31475-f166-4ccd-9aa1-efd14d4fcd87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.6204 238.76 0)
+			(at 130.6504 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
