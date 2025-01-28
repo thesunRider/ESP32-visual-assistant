@@ -1,4 +1,4 @@
-# ESP32 AI Wareable 
+# ESP32 AI portable visual-assistant  
 ### Device Design Requirements:
 
 1. **Audio Playback:**
