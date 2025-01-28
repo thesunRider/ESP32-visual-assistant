@@ -1,11 +1,4 @@
 # ESP32 AI Wareable 
-
-### Endproduct Requirement 
-1. Working Prototype with enclosure
-2. 50~60mm size 
-3. Before 20th Jan. 
-4. All functionalities must be operational.
-
 ### Device Design Requirements:
 
 1. **Audio Playback:**
