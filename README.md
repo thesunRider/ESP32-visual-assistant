@@ -1,6 +1,4 @@
-# Ware It ESP32S3
-
-Client Link: https://www.wareit.ai/
+# ESP32 AI Wareable 
 
 ### Endproduct Requirement 
 1. Working Prototype with enclosure
