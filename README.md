@@ -23,7 +23,7 @@
 
 # Final Product:
 ![PCB_1](https://github.com/thesunRider/ESP32-visual-assistant/blob/main/images/PCB_1.jpeg)
-
+![Case_1](https://github.com/thesunRider/ESP32-visual-assistant/blob/main/images/case_1.jpg)
 
 ## Technicals
 Language: C++ -> Need to create testcases for harware \
