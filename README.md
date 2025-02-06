@@ -22,7 +22,7 @@
    - Design a compact, 3D-printed enclosure with ports (e.g., USB charging) and provisions for heat dissipation.
 
 # Final Product:
-https://github.com/thesunRider/ESP32-visual-assistant/blob/main/images/PCB_1.jpeg****
+![PCB_1](https://github.com/thesunRider/ESP32-visual-assistant/blob/main/images/PCB_1.jpeg)
 
 
 ## Technicals
